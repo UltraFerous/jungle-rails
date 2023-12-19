@@ -13,6 +13,7 @@ RSpec.describe Product, type: :model do
       @category = Category.new(name: 'tree1')
       @product = Product.new(name: "test", price: nil, quantity: nil, category: nil)
       expect(@product).to_not be_valid
+      expect(@product.price).to eq(Money.new((0.0).to_d, "CAD"))
       expect(@product.errors.full_messages).to include("Quantity can't be blank")
       expect(@product.errors.full_messages).to include("Category can't be blank")
     end
@@ -28,6 +29,7 @@ RSpec.describe Product, type: :model do
       @category = Category.new(name: 'tree3')
       @product = Product.new(name: nil, price: nil, quantity: 1, category: nil)
       expect(@product).to_not be_valid
+      expect(@product.price).to eq(Money.new((0.0).to_d, "CAD"))
       expect(@product.errors.full_messages).to include("Name can't be blank")
       expect(@product.errors.full_messages).to include("Category can't be blank")
     end
@@ -35,6 +37,7 @@ RSpec.describe Product, type: :model do
       @category = Category.new(name: 'tree4')
       @product = Product.new(name: nil, price: nil, quantity: nil, category: @category)
       expect(@product).to_not be_valid
+      expect(@product.price).to eq(Money.new((0.0).to_d, "CAD"))
       expect(@product.errors.full_messages).to include("Name can't be blank")
       expect(@product.errors.full_messages).to include("Quantity can't be blank")
     end
