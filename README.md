@@ -2,9 +2,9 @@
 
 A mini e-commerce application built with Rails 6.1. Customers can create accounts and mimic the experience of buying plants, while administrators can manage plant inventory and categories.
 
-![Store Page](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![Checkout Page](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![Admin Page](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Store Page](https://github.com/UltraFerous/jungle-rails/blob/master/public/images/storePage.jpg)
+![Checkout Page](https://github.com/UltraFerous/jungle-rails/blob/master/public/images/checkOut.jpg)
+![Admin Page](https://github.com/UltraFerous/jungle-rails/blob/master/public/images/adminPage.jpg)
 
 ## Setup
 
