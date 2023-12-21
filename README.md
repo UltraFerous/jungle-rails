@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1. Customers can create accounts and mimic the experience of buying plants, while administrators can manage plant inventory and categories.
+A mini e-commerce application built with Rails 6.1. Customers can create accounts and mimic the experience of buying plants, while administrators can manage plant inventory and add categories.
 
 ![Store Page](https://github.com/UltraFerous/jungle-rails/blob/master/public/images/storePage.jpg)
 ![Checkout Page](https://github.com/UltraFerous/jungle-rails/blob/master/public/images/checkOut.jpg)
